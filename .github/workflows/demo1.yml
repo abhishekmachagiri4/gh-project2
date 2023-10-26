@@ -3,13 +3,13 @@ on:
   pull_request:
     types: [opened, edited]
     branches:
-      - 'main'
+      - 'master'
       - 'dev-*'
       - 'feat/**'
   workflow_dispatch:
   push:
     branches:
-      - 'main'
+      - 'master'
       - 'dev-*'
       - 'feat/**'
     paths:
